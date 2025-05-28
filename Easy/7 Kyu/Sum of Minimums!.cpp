@@ -8,5 +8,5 @@ int sum_of_minimums(const std::vector<std::vector<int>> &numbers)
         res.push_back(*std::min_element(arr1.begin(),arr1.end()));
     }
     return std::accumulate(res.begin(),res.end(),0);
-  
+
 }
