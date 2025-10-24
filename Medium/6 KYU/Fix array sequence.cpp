@@ -1,6 +1,8 @@
 #include <vector>
 #include <algorithm>
 #include <iostream>
+#pragma warning(disable : 4715) 
+
 
 bool is_in_array(const std::vector<int>& vector, int number){
     auto it = std::find(vector.begin(), vector.end(), number);
